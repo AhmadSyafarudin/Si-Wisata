@@ -6,3 +6,4 @@
 <?php include("destinasi_pilihan.php") ?>
 <?php include("testimoni.php") ?>
 <?php include("teams.php") ?>
+<?php $this->load->view('pages/tiket_form/index') ?>

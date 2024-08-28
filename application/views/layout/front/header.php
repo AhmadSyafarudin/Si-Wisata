@@ -19,6 +19,7 @@
 	<!-- Libraries Stylesheet -->
 	<link href="<?= base_url() ?>assets/lib/animate/animate.min.css" rel="stylesheet">
 	<link href="<?= base_url() ?>assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/2.1.4/css/dataTables.dataTables.min.css" rel="stylesheet">
 
 
 	<!-- Customized Bootstrap Stylesheet -->

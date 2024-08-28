@@ -13,7 +13,8 @@ class Main extends CI_Controller
 	{
 		$data = [
 			'page' => 'pages/home/index',
-			'script' => '',
+			'script' => 'pages/tiket_form/script',
+			'link' => 'home',
 		];
 		return $this->load->view('layout/front/main', $data);
 	}

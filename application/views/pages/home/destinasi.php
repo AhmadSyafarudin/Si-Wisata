@@ -28,7 +28,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Taman Nasional Wakatobi di Sulawesi Tenggara merupakan salah satu surga wisata Indonesia yang wajib kamu kunjungi sekali seumur hidup.</p>
-									<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
@@ -54,7 +58,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Tana Toraja memiliki keindahan alam yang luar biasa mulai dari deretan pegunungan dan hijau perbukitannya. Selain kaya akan alamnya, tempat wisata d Indonesia ini juga kaya akan budaya leluhur yang masih dijaga sampai saat ini.</p>
-									<a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
@@ -80,7 +88,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Candi Borobudur merupakan kompleks candi Buddha terbesar di dunia. Candi yang menjadi salah satu tempat wisata terindah di Indonesia ini ditetapkan UNESCO sebagai salah satu situs warisan dunia pada tahun 1991.</p>
-									<a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
@@ -106,7 +118,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Raja Ampat menjadi primadona baru di dunia pariwisata Indonesia. Pesona tempat wisata terindah di Indonesia ini mulai banyak dikenal baik oleh wisatawan domestik maupun mancanegara. Raja Ampat sendiri merupakan kumpulan dari pulau-pulau di ujung Papua. Ada empat pulau utama di sini, yaitu Waigeo, Misool, Salawati dan Batanta.</p>
-									<a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
@@ -132,7 +148,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Taman Laut Bunaken menjadi salah satu tempat wisata terindah di Indonesia yang lagi-lagi ditetapkan UNESCO sebagai situs warisan dunia, tepatnya pada tahun 2005. Hal ini dikarenakan kekayaan dan keragaman biota lautnya yang luar biasa mulai dari terumbu karang, rumput laut sampai spesies ikan yang ada.</p>
-									<a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
@@ -158,7 +178,11 @@
 								</a>
 								<div class="px-4">
 									<p class="mb-4">Dieng Plateau tempat wisata menarik di Dataran Tinggi Dieng yang selalu jadi tujuan favorit wisatawan sepanjang tahun. Berada di ketinggian 2.000 mdpl, objek wisata yang juga dikenal sebagai Dieng Plateau ini merupakan sebuah kaldera yang dikelilingi gunung aktif.</p>
-									<a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Pesan Sekarang</a>
+									<?php if ($this->session->userdata('user')) : ?>
+										<button class="btn btn-primary border-secondary rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#tiketModal">Pesan Sekarang</button>
+									<?php else : ?>
+										<a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="<?= base_url() ?>login">Pesan Sekarang</a>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
