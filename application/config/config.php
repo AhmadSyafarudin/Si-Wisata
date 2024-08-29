@@ -30,6 +30,7 @@ $protocol = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" :
 $base_url = $protocol . "://" . $_SERVER['HTTP_HOST'];
 
 $config['base_url'] = $base_url;
+// $config['base_url'] = 'http://localhost/siwisata/';
 
 /*
 |--------------------------------------------------------------------------
